@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Code Quiz</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+  <body>
+    <!--  Link to Html Webpage For the saved High Scores -->
+    <div class="high-scores"><a href="./hs.html">High scores</a></div>
+    <!----Make a timer-->
+    <header>
+    <div class="Timer">Timer: <span id="time">60</span></div>
+
+</header>
+<!-- Wrapper div-->
+      <div class="wrapper">
+  
+        <!-- Homepage-->
+        <div id="homepage" class="intro">
+            <h1>Coding Quiz Challenge</h1>
+            <p> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <button id="start-btn" class="start-btn btn">Start Quiz</button>
+        </div>
+        <!-- Questions  Will be "unhidden" after start button has been clicked -->
+        <div id="questions" class="hidden">
+            <h2 id="question"></h2>
+            <div id="answer-buttons" class="options">                            
+                <button class="btn" id="answer0">Answer 0</button>
+                <button class="btn" id="answer1">Answer 1</button>
+                <button class="btn" id="answer2">Answer 2</button>
+                <button class="btn" id="answer3">Answer 3</button>             
+            </div>    
+            <!-- This is for the Messge to let USer know of they got the answer right  or wrong-->     
+            <div class = "hidden" id = "result-box">
+              <br/>
+              <div id = "result"></div>
+            </div>
+        </div>
+       
+        <!-- Highscores Html Web Page-->
+        <div id="Hs-html" class="hidden">
+            <h2>Nice!</h2>
+            <p>Your final score is  <span id="score"> </span>.</p>
+            <p> Enter  Your Initials:  <input type="text" id="initials" /> </p>
+            <button id="submit-btn" class="submit-btn btn">Submit</button>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

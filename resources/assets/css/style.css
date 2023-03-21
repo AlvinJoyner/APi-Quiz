@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+}
+
+.btn {
+    
+    background-color: #4B0082;
+    color: white;
+    border-radius: 6px;
+}
+
+#question {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.high-scores a {
+    color: violet;
+    text-decoration: none;
+}
+
+.wrapper {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+}
+
+#start-btn {
+   text-align: center;
+}
+
+.high-scores {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+  .Timer {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+  .intro {
+      text-align: center;
+  }
+
+  .intro p {
+      text-align: center;
+  }
+
+  button {
+      width: 130px;
+      height: 40px;
+  }
+
+  button:hover {
+      background-color: violet;
+  }
