@@ -35,7 +35,7 @@ THEN I can save my initials and score
 ![Screenshot 2023-03-21 133737](https://user-images.githubusercontent.com/124743421/226694945-1685f455-f603-4d65-81fe-743de79f45b7.jpg)
  
 ## Usage
-
+https://alvinjoyner.github.io/APi-Quiz/
 
 ## Credits
 
